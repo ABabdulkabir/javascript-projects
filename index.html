@@ -1,0 +1,260 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="number" name="" id="number">
+    <button onclick="demo()">click</button>
+     
+        <script>
+            // Leap Year:
+            function demo() {
+                var year = document.getElementById("number").value;
+
+                if (year%4 ==0){
+            window.alert("leap year");  
+        }
+
+        else if (year%100 ==0) {
+            window.alert("not leap year");
+        }
+
+        else if (year%400 ==0){
+            window.alert("leap year");
+        } 
+
+        else 
+        window.alert("not  leap year");
+
+                
+            }
+            
+          //  EVEN NUMBERS:
+        for (var a  = 1; a <= 100; a++) {
+            if (a % 2 == 0 ){
+                document.write(a + "<br>");
+            }
+            
+            
+        }
+      // ODD NUMBERS:
+        for (var a  = 1; a <= 100; a++) {
+            if (a % 2 != 0 ){
+                document.write(a);
+            }
+            
+            
+         }
+     //positive and negative numbers:
+         var a;
+         a=prompt ("please input a value to check negative or positive");
+         
+         if (a>=0) {
+            document.write("this is positive number");
+         }
+
+         else{
+            document.write("this is negative number");
+         }    
+       
+        //MarkSheet:
+        
+        var name = prompt('enter your name');
+        var roll = prompt('enter your roll');
+        var standard = prompt('enter your class');
+        var math = prompt('enter your math');
+        var urdu = prompt('enter your urdu');
+        var english = prompt('enter your english');
+        var chemistry = prompt('enter your chemistry');
+        var physic = prompt('enter your physic');
+        
+        var obtained_marks = parseInt(math) + parseInt(urdu) + parseInt(english) + parseInt(chemistry) + parseInt(physic);
+        var percentage = obtained_marks * 100 / 500;
+        document.write("your name is:" + name + "<br/>");
+        document.write("your roll num is:" + roll + "<br/>");
+        document.write("your class is:"+ standard + "<br/>");
+        document.write("your percentage is:" + "<br/>");
+
+    if (percentage >=80) {
+        document.write("your grade is: A-1");
+        
+     }
+    
+else if (percentage >=70) {
+    document.write("Your Grade is: A");
+    
+}
+
+
+else if (percentage >=70) {
+    document.write("Your Grade is: A");
+    
+}
+
+
+else if (percentage >=60) {
+    document.write("Your Grade is: B");
+    
+}
+
+
+else if (percentage >=50) {
+    document.write("Your Grade is: C");
+    
+}
+
+
+else if (percentage >=40) {
+    document.write("Your Grade is: D");
+    
+}
+
+
+else if (percentage >=30) {
+    document.write("Your Grade is: E");
+    
+}
+
+
+else {
+    document.write("You are Fail");
+}
+        
+
+
+// VARIABELS IN JS:
+
+var firstname;
+   
+   firstname = "kabeer";
+  document.write(firstname);
+
+
+
+  var firstname = "kabeer";
+  document.write(firstname);
+  
+  var myage = 40;
+   document.write(myage);
+
+
+  var firstname = "rajput";
+
+  document.write("rajput");    
+   
+
+  var mynumber = "03191514035";
+   
+   document.write(mynumber);
+
+
+ var myfirstname = "KABEER RAJPOOT";
+ 
+ document.write("MY FIRST NAME IS");
+
+ document.write(myfirstname);
+
+ 
+ document.write("MY FIRST NAME IS");
+
+ document.write(myfirstname);
+
+
+ 
+ document.write("MY FIRST NAME IS");
+
+ document.write(myfirstname);
+
+ 
+ document.write("MY FIRST NAME IS");
+
+ document.write(myfirstname);
+
+ 
+ document.write("MY FIRST NAME IS");
+
+ document.write(myfirstname);
+
+ 
+ document.write("MY FIRST NAME IS");
+
+ document.write(myfirstname);
+
+
+ var firstname ,lastname, myage;
+
+ firstname = "Abdul";
+ lastname = "Kabeer";
+ myage = "25";
+
+
+ document.write(firstname,lastname,myage);
+
+var name , batch, timmings;
+
+name = "Aptech"; 
+batch = "<br>PR2.0";
+timmings = "<br>5to7";
+
+
+var myname , myclass , Myclasstimmings , mycourse;
+
+myname = "Abdul kabeer";
+myclass = "<br>Javascript";
+myclasstimmings = "<br>5 to 7";
+mycourse = "web development";
+
+document.write("<br>my name is ");
+document.write(myname);
+
+document.write("<br>my class is ");
+document.write(myclass);
+
+document.write("<br>my class timming is ");
+document.write(myclasstimmings);
+
+document.write("<br>my course is ");
+document.write(mycourse);
+
+
+//ASSIGNMENT OPERATORS:
+var a = 6;
+var b = 3;
+
+document.write(a);
+
+//COMPOUND ASSIGNMENT OPERATORS:
+var a = 6;
+var b = 3;
+
+a += b;
+ 
+document.write(a);
+
+//Subscription (-) :
+var a = 6;
+var b = 3;
+
+a -= b;
+document.write(a);
+
+//Multipilication (*)
+var a = 6;
+var b = 3;
+
+a *= b;
+document.write(a);
+
+//Divide (/)
+var a = 6;
+var b = 3;
+
+a /= b;
+document.write(a);
+     </script>
+</body>
+</html>
